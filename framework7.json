@@ -1,0 +1,27 @@
+{
+  "cwd": "/Users/shemang/Desktop/sheba",
+  "type": [
+    "web",
+    "pwa",
+    "capacitor"
+  ],
+  "name": "Sheba",
+  "framework": "core",
+  "template": "tabs",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": true,
+    "color": "#f8c86b",
+    "darkMode": true,
+    "iconFonts": true
+  },
+  "customBuild": false,
+  "pkg": "kitchen.sheba.app",
+  "capacitor": {
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}
